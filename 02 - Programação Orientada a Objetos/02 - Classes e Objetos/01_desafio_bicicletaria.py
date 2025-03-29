@@ -28,3 +28,13 @@ print(b1.cor, b1.modelo, b1.ano, b1.valor)
 b2 = Bicicleta("verde", "monark", 2000, 189)
 print(b2)
 b2.correr()
+
+b3 = Bicicleta("Preta", "Sense", 2012, 950)
+print(b3)
+b3.buzinar()
+b3.correr()
+b3.parar()
+
+Bicicleta.correr(b3)
+
+print(b3.cor)
