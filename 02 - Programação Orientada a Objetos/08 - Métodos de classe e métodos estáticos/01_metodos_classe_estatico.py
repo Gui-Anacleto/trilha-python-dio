@@ -18,3 +18,5 @@ print(p.nome, p.idade)
 
 print(Pessoa.e_maior_idade(18))
 print(Pessoa.e_maior_idade(8))
+print(Pessoa.e_maior_idade(p.idade))
+
